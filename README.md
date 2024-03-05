@@ -5,6 +5,7 @@
       Ex : adoption de la télé au sein dees foyers, des téléphones, propagation d'idées politiques, diffusion fake news, etc...
       Objectif -> réussir a modéliser l'adopation d'une innovation dans une population en fonction de différents paramètres
       ## Premières pistes de recherche et sources :
-      https://sorbonne-universite.primo.exlibrisgroup.com/permalink/33BSU_INST/1c3k0lm/alma991002877559806616
+      - https://sorbonne-universite.primo.exlibrisgroup.com/permalink/33BSU_INST/1c3k0lm/alma991002877559806616
+      - https://sorbonne-universite.primo.exlibrisgroup.com/permalink/33BSU_INST/1c3k0lm/alma991002877559806616
       
       
