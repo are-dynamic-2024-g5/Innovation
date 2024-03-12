@@ -18,3 +18,5 @@
 ## Idée code : 
 
 On représente la population sous forme de listes de tableau, chaque tableau correspondant à une caractéristique pour chaque personne. On rajoute un tableau d'adoption de l'innovation. On réprésente l'innovation par un tableau de caractéristique. On prends chaque personne, on mêle les différentes caractéristiques de la personne et de l'innovation pour aboutir à un "taux de conviction" à partir d'un certain taux la personne adopte l'innovation. Initialement x personnes on déjà adoptées l'innovation. L'impact de chaque caractéristique sur le "taux de conviction" de la personne va être choisi par rapport aux études déjà faites sur le sujet que l'on aura trouvé. 
+12-03-2024
+Début de code ajouté au projet, on a défini le "plan" de code et de recherches en commentaire du code
