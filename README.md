@@ -23,8 +23,8 @@ Début de code ajouté au projet, on a défini le "plan" de code et de recherche
 19-03-2024 :
 avancement sur le premier code, presque fini
 26-03-2024 :
-##achevement premier code mais tres brouillon, poursuite de recherches :
-*https://www.persee.fr/doc/ecoap_0013-0494_1986_num_39_3_4086#ecoap_0013-0494_1986_num_39_3_T1_0619_0000
-*https://www.cairn.info/sociologie-de-l-innovation--9782715408944-page-66.htm?contenu=plan
-*https://theses.hal.science/tel-00440100/document
-*https://archipel.uqam.ca/5885/1/M12804.pdf
+## achevement premier code mais tres brouillon, poursuite de recherches :
+* https://www.persee.fr/doc/ecoap_0013-0494_1986_num_39_3_4086#ecoap_0013-0494_1986_num_39_3_T1_0619_0000
+* https://www.cairn.info/sociologie-de-l-innovation--9782715408944-page-66.htm?contenu=plan
+* https://theses.hal.science/tel-00440100/document
+* https://archipel.uqam.ca/5885/1/M12804.pdf
