@@ -28,3 +28,7 @@ avancement sur le premier code, presque fini
 * https://www.cairn.info/sociologie-de-l-innovation--9782715408944-page-66.htm?contenu=plan
 * https://theses.hal.science/tel-00440100/document
 * https://archipel.uqam.ca/5885/1/M12804.pdf
+
+02-04-2024 :
+
+Nouveau code utilisation du modèle de simulation multi agent, modification du code de chatgtp, on doit l'améliorer/modifier l'implementation des parametres pour que ça soit cohérent pas de random, modifier si besoin les metriques de sorties si on a de nouvelles idées, faire plusieurs simulation et conserver les données pour tirer des conclusions.
