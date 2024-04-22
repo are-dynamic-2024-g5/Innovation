@@ -31,4 +31,10 @@ avancement sur le premier code, presque fini
 
 02-04-2024 :
 
-Nouveau code utilisation du modèle de simulation multi agent, modification du code de chatgtp, on doit l'améliorer/modifier l'implementation des parametres pour que ça soit cohérent pas de random, modifier si besoin les metriques de sorties si on a de nouvelles idées, faire plusieurs simulation et conserver les données pour tirer des conclusions.
+Nouveau code utilisation du modèle de simulation multi agent, modification du code de chatgtp, on doit l'améliorer/modifier l'implementation des parametres pour que ça soit cohérent pas de random, modifier si besoin les metriques de sorties si on a de nouvelles idées, faire plusieurs simulation et conserver les données pour
+tirer des conclusions.
+
+22-04-2024 : 
+
+On décide de répondre à l'hypothèse : la communication, marketing autour d'une nouveauté est décisif/est ce qui joue le plus dans l'adoption d'une innovation
+On va donc fixer les autres paramètres et faire bouger celui ci pour voir ce qui se passe et ce que les métriques de sorties montrent
