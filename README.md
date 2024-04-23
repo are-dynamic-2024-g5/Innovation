@@ -34,7 +34,18 @@ avancement sur le premier code, presque fini
 Nouveau code utilisation du modèle de simulation multi agent, modification du code de chatgtp, on doit l'améliorer/modifier l'implementation des parametres pour que ça soit cohérent pas de random, modifier si besoin les metriques de sorties si on a de nouvelles idées, faire plusieurs simulation et conserver les données pour
 tirer des conclusions.
 
+
 22-04-2024 : 
 
 On décide de répondre à l'hypothèse : la communication, marketing autour d'une nouveauté est décisif/est ce qui joue le plus dans l'adoption d'une innovation pour les -40 ans mais impacte moins les +40 ans
 On va donc fixer les autres paramètres et faire bouger celui ci pour voir ce qui se passe et ce que les métriques de sorties montrent
+23-04 :
+
+on pose tout le monde est touché pareillement par la pub sur les reseaux
+on suppose que, certes tout le monde s'influence un peu entre eux, mais les jeunes influencent plus les jeunes et les vieux influences plus les vieux 
+on fait bouger la pub, on voit si ca prends le dessus sur l'influence intra age ou pas. 
+On va faire un monde de personnes d'un age
+il faut savoir combien ya de +40 ans et combien -40 ans 
+on implémente un certain nombres d'adopteurs initiaux pour les -40 ans, un certain nombrre pour les +40 ans (a faire bouger)
+on fait passer chaque personne par : l'influence de ceux de son age, l'influence de ceux de l'autre age, la force de la pub, ça donne une nouvelle probabilité d'adoption qui décide si la personne l'adopte ou pas
+on itère, graphique,
