@@ -39,6 +39,8 @@ tirer des conclusions.
 
 On décide de répondre à l'hypothèse : la communication, marketing autour d'une nouveauté est décisif/est ce qui joue le plus dans l'adoption d'une innovation pour les -40 ans mais impacte moins les +40 ans
 On va donc fixer les autres paramètres et faire bouger celui ci pour voir ce qui se passe et ce que les métriques de sorties montrent
+
+
 23-04 :
 
 on pose tout le monde est touché pareillement par la pub sur les reseaux
