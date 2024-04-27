@@ -1,5 +1,11 @@
 # Diffusion d'une innovation dans une population
 
+## Objectif 
+
+## Modélisation - Code
+
+## Conclusions 
+
 ## Carnet de bord brouillon
 (05/03/2024)
 ### Introduction au projet : 
