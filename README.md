@@ -2,7 +2,7 @@
 
 ## Carnet de bord brouillon
 (05/03/2024)
-## Introduction au projet : 
+### Introduction au projet : 
   Projet : Comment évolue la diffusion d'une innovation/idée/nouveauté au sein d'une population donnée ?
       --> différents paramètres : taille de la population, taux initial d'adoption de l'innovation, simplicité de l'innovation (compatibilité avec les normes de la population), ampleur de l'innovation sur les réseaux sociaux, stratégies de                         communications(pubs etc..), contexte social, econimique, culturel, politique, concurrance  
       Ex : adoption de la télé au sein dees foyers, des téléphones, propagation d'idées politiques, diffusion fake news, etc...
@@ -17,7 +17,7 @@
       _Présenté en 1983 par Everett Rogers, il analyse les modalités d’adoption d’une innovation, en étudiant notamment le rôle de la communication interpersonnelle et celui des leaders d’opinion. Rogers explique que l’individu qui est soumis à une innovation entre dans un processus comportant cinq étapes : la connaissance (knowledge), la persuasion (persuasion), la décision (decision), l’utilisation (implementation) et la confirmation (confirmation). Dans ces conditions, il devient possible de calculer un taux d’adoption découlant des caractéristiques de l’innovation, et de découper la population en sous-ensembles en fonction de la rapidité avec laquelle les individus qui les composent adoptent cette innovation
   ---->Le rôle des réseaux sociaux dans la diffusion de l'innovation reste une question stratégique. Dans des travaux antérieurs, nous avons introduit un apprentissage relationnel, basé sur la règle hebbienne, qui conduit à un état critique dans  lequel peu d'agents atteignent des positions structurelles de leaders d'opinion. Dans cet article, nous montrons que l'auto-organisation d'un réseau d'influence, à travers l'apprentissage social, n'est pas un processus monotonique, du point de vue de ses caractéristiques structurelles ainsi que de ses performances de diffusion. La notion d'intermédiarité, qui découle directement de la notion de réseau, apparaît nécessaire pour décrypter cette évolution. En introduisant le rôle des « liens faibles » dans les divers régimes de diffusion, il est alors possible d'apporter une nouvelle compréhension du phénomène. Le rôle des réseaux sociaux dans la diffusion de l'innovation demeure une question stratégique. Dans des travaux antérieurs, nous avons introduit un apprentissage relationnel, de type hebbien, qui conduit à un état critique, dans lequel certains agents acquièrent des positions, purement structurelles, de leaders d'opinion. Dans cet article, nous montrons que l'auto-organisation d'un réseau d'influence, par l'effet d'un apprentissage social, ne constitue pas un phénomène monotone, aussi bien du point de vue des caractéristiques structurelles du réseau que de celui de ses performances en diffusion. Ceci nécessite, pour être analysé, d'utiliser à la notion d'intermédiarité qui est inhérente au concept de réseau. Une analyse relative au rôle des "liens faibles" dans les différents régimes de diffusion devrait alors permettre d'offrir un éclairage nouveau sur cette dynamique d'évolution. Zimmermann Jean-Benoît, Deroïan Frédéric, Steyer Alexandre. Apprentissage social et diffusion de l'innovation : réseaux critiques et intermédiarité. Dans : Revue d'économie industrielle, vol. 103, 2e et 3e trimestre 2003. La morphogénèse des réseaux, sous la direction de Patrick Cohendet, Alan Kirman et Jean-Benoît Zimmermann. p. 71-89. 
 
-## Idée code : 
+### Idée code : 
 
 On représente la population sous forme de listes de tableau, chaque tableau correspondant à une caractéristique pour chaque personne. On rajoute un tableau d'adoption de l'innovation. On réprésente l'innovation par un tableau de caractéristique. On prends chaque personne, on mêle les différentes caractéristiques de la personne et de l'innovation pour aboutir à un "taux de conviction" à partir d'un certain taux la personne adopte l'innovation. Initialement x personnes on déjà adoptées l'innovation. L'impact de chaque caractéristique sur le "taux de conviction" de la personne va être choisi par rapport aux études déjà faites sur le sujet que l'on aura trouvé. 
 12-03-2024
@@ -25,7 +25,7 @@ Début de code ajouté au projet, on a défini le "plan" de code et de recherche
 19-03-2024 :
 avancement sur le premier code, presque fini
 26-03-2024 :
-## achevement premier code mais tres brouillon, poursuite de recherches :
+### achevement premier code mais tres brouillon, poursuite de recherches :
 * https://www.persee.fr/doc/ecoap_0013-0494_1986_num_39_3_4086#ecoap_0013-0494_1986_num_39_3_T1_0619_0000
 * https://www.cairn.info/sociologie-de-l-innovation--9782715408944-page-66.htm?contenu=plan
 * https://theses.hal.science/tel-00440100/document
