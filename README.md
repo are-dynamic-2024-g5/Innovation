@@ -60,13 +60,13 @@ Ceci nous permet de valider l'hypothèse selon laquelle la publicité est plus d
 
 
 
-# Limites du modèle
+## Limites du modèle
 
 Les limites du modèle : tout d'abord sa simplicité, l'adoption d'une innovation dépend de beaucoup plus de facteurs en réalité, d'ailleurs dans nos simulations l'adoption de l'innovation ne fait que croître ce qui évidemment ne correspond pas toujours à la réalité. Néanmoins cela ne nous empêche pas totalement de répondre à notre hypothèse, en effet, être placé dans un cas où l'adoption ne fait que croître n'empêche pas de pouvoir conclure sur l'importance de la pub face à celle de l'influence des pairs.
 En revanche, on a dû choisi certains facteurs influant sur les probabilités d'adoption et de déclin ce qui fait que le modèle peut manquer d'un peu d'objectivité.
 
 
-## Carnet de bord 
+# Carnet de bord 
 ### (05/03/2024) Introduction au projet : 
   Projet : Comment évolue la diffusion d'une innovation/idée/nouveauté au sein d'une population donnée ?
       --> différents paramètres : taille de la population, taux initial d'adoption de l'innovation, simplicité de l'innovation (compatibilité avec les normes de la population), ampleur de l'innovation sur les réseaux sociaux, stratégies de                         communications(pubs etc..), contexte social, econimique, culturel, politique, concurrance  
