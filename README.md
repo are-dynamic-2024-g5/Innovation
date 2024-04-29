@@ -6,21 +6,26 @@ On a choisi d'étudier la diffusion d'une innovation dans une population. L'inno
 
 ### Objectif 
 
-On a choisi comme hypothèse à valider ou invalider : La publicité/communication autour de l'innovation impacte plus les individus dans l'adoption de l'innovation que l'influence des pairs. Notre objectif est d'étudier l'évolution de l'adoption d'une innovation dans une population, impactée par la publicité et de déterminer si l'hypothèse est valide ou non.
+Dans ce projet, nous cherchons à comprendre ce qui influence le plus les individus lorsqu'ils décident d'adopter une nouvelle idée ou un nouveau produit : est-ce la publicité ou les interactions avec leur entourage ?
+On a choisi comme hypothèse à valider ou invalider : La publicité/communication autour de l'innovation impacte plus les individus dans l'adoption de l'innovation que l'influence des pairs. Notre objectif est d'étudier l'évolution de l'adoption d'une innovation dans une population et de déterminer si l'hypothèse est valide ou non.
 
 ## Modélisation - Code
+
+Nous supposons que la décision d'adopter une innovation dépend à la fois de la sensibilité à la publicité de chaque individu et de ses interactions sociales. Pour tester cette hypothèse, nous avons développé un modèle de simulation. 
+
+Notre modèle simule comment une innovation se diffuse dans une population en fonction de la force de la publicité et des influences des pairs, en tenant compte de l'âge des individus. Nous visons à déterminer quel facteur a le plus d'impact sur la décision d'adoption : la publicité ou les interactions sociales. 
 
 On suppose que l'influence entre les pairs est proportionelle à l'écart d'âge entre les individus, c'est à dire qu'on suppose que plus des individus sont proches en âge, plus leur décision d'adoption de l'innovation sera influencé par les autres du même groupe d'âge. A l'inverse, plus des individus sont éloignés en âge, moins leur décision d'adoption de l'innovation influencera l'autre.
 
 Le modèle fonctionne de la façon suivante :
 
 
-- On considère un monde linéaire, supposant que tout le monde influence tout le monde  via les réseaux sociaux, on ne considère pas de voisinage pour l'influence des pairs, un monde linéaire est donc adapté à la modélisation, il n'y a pas de prise en compte spatiale. 
+- On considère un monde linéaire, supposant que tout le monde influence tout le monde via les réseaux sociaux, on ne considère pas de voisinage pour l'influence des pairs, un monde linéaire est donc adapté à la modélisation, il n'y a pas de prise en compte spatiale. 
 - Chaque personne est caractérisée par son âge, sa probabilité d'adoption, sa probabilité de déclin et si elle a ou non adopté l'innovation. 
 - La probabilité d'adoption de chaque personne du monde est la même, elle est d'abord initialisé par rapport à la 'force' de la publicité/communication autour de l'innovation (avec un facteur de sensibilité). 
 - La probabilité de déclin initiale est arbitraire.
 - Les probabilité d'adoption et de déclin vont ensuite être impactée par l'influence des pairs. La probabilité d'adoption va augmenter si les autres individus ont adoptés l'innovation, et ce proportionnellement à leurs écarts d'âge, et de même pour la probabilité de déclin.
-- La population est générée avec des âges au hasard entre 15 et 75 ans.
+- La population est générée avec des âges au hasard entre 15 et 75 ans, avec un certain nombre de personnes ayant initalement adopté l'innovation.
 
 
 Les paramètres de la simulation sont :
@@ -28,12 +33,17 @@ Les paramètres de la simulation sont :
 - Le taux de 'force' de la publicité 
 - La taille de la population
 - Le nombre de personnes ayant initialement adopté l'innovation
-- Le nombre d'itération 
+- Le nombre d'itérations 
 
 
 ## Interprétation des résultats
 
-On lance plusieurs simulation sur une population de 2000 personnes avec 200 personnes ayant initialement adoptés l'innovation.
+On lance plusieurs simulation avec les paramètres suivants : 
+- 10 itérations
+- Population de 2000 personnes
+- 200 personnes ayant initialement adopté l'innovation
+- Différents essais sur la 'force' de la publicité
+  
 On remarque qu'à mesure que la force de la publicité augmente, les écarts du nombre d'adopteurs se réduisent entre les différentes tranches d'âges (écart maximal d'environ 20 personnes pour une force de pub de 0.05 parmis 198 adopteurs || écart d'environ 20 personnes pour une force de pub de 0.9 parmis près de 1700 adopteurs)
 
 Ceci nous permet de valider l'hypothèse selon laquelle la publicité est plus décisive que l'influence des pairs.
@@ -50,11 +60,10 @@ Ceci nous permet de valider l'hypothèse selon laquelle la publicité est plus d
 
 
 
-# Conclusion - Limites du modèle
+# Limites du modèle
 
-
-
-
+Les limites du modèle : tout d'abord sa simplicité, l'adoption d'une innovation dépend de beaucoup plus de facteurs en réalité, d'ailleurs dans nos simulations l'adoption de l'innovation ne fait que croître ce qui évidemment ne correspond pas toujours à la réalité. Néanmoins cela ne nous empêche pas totalement de répondre à notre hypothèse, en effet, être placé dans un cas où l'adoption ne fait que croître n'empêche pas de pouvoir conclure sur l'importance de la pub face à celle de l'influence des pairs.
+En revanche, on a dû choisi certains facteurs influant sur les probabilités d'adoption et de déclin ce qui fait que le modèle peut manquer d'un peu d'objectivité.
 
 
 ## Carnet de bord 
